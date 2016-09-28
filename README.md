@@ -26,10 +26,10 @@ If you have a typed model, you can provide the ImageRendering object as an
 extension method to the image field type of the model.
 
 More info about this module can be found here:
-[http://mikael.com/2016/09/optimized-progre…ages-in-sitecore/](http://mikael.com/2016/09/optimized-progre…ages-in-sitecore/)
+[http://mikael.com/2016/09/optimized-progreâ€¦ages-in-sitecore/](http://mikael.com/2016/09/optimized-progreâ€¦ages-in-sitecore/)
 
 ##Credits
 The idea and some of the code in this module is based on two blog posts
 by Anders Laub [@AndersLaub](https://twitter.com/AndersLaub):
 [Setting JPEG compression level](https://laubplusco.net/make-sitecore-deliver-images-fits-screen/)
-[Cropping images](https://laubplusco.net/make-sitecore-deliver-images-fits-screen-part-2/)
+and [Cropping images](https://laubplusco.net/make-sitecore-deliver-images-fits-screen-part-2/)
