@@ -19,7 +19,10 @@ to build proper image URLs, such as this:
   // Assuming a MediaItem exists
   var imageRendering = new ImageRendering(mediaItem);
 }
-<img src="@imageRendering.WithAutoCrop(400,300).WithQuality(75).GetUri()" />
+<picture>
+  <source srcset="@imageRendering.WithAutoCrop(400,300).WithQuality(75).GetUri()" ... />
+  ...
+</picture>
 ~~~~
 
 If you have a typed model, you can provide the ImageRendering object as an 
